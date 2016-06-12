@@ -27,10 +27,10 @@ describe('composeV()', function() {
     expect(actual).to.equal(wanted)
   })
   it('composes functions with differing arity', function() {
-    function x(x) { return x + 1 }
-    function y(x, y) { return x * y }
-    var actual = composeV(y, x)(5, 5) // (a, b) -> y(x(a, b), b) OR 5 + 5 * 5
-    var wanted = 30
+    function x(x, y) { return x + y }
+    function y(x, y, z) { return x + y + z }
+    var actual = composeV(y, x)(4, 6, 8) // (a, b, c) -> y(x(a, b, c), b, c) OR 4 + 6 + 6 + 8
+    var wanted = 24
     expect(actual).to.equal(wanted)
   })
 })
