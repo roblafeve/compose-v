@@ -4,7 +4,9 @@
   "description": "Variadic function composition",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "nyc mocha",
+    "test:watch": "mocha -w",
+    "report-coverage": "nyc report --reporter=lcov > coverage.lcov && codecov"
   },
   "repository": {
     "type": "git",
@@ -14,8 +16,7 @@
     "compose",
     "functional",
     "variadic",
-    "multi-arity",
-    "javascript"
+    "multi-arity"
   ],
   "author": "Rob LaFeve",
   "license": "MIT",
@@ -25,6 +26,7 @@
   "homepage": "https://github.com/roblafeve/compose-v#readme",
   "devDependencies": {
     "chai": "^3.5.0",
+    "codecov": "^1.0.1",
     "mocha": "^2.5.3",
     "nyc": "^6.4.4"
   }
