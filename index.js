@@ -1,5 +1,4 @@
-// variadicCompose :: ((x,y, ...), (x,y, ...)) -> (a, b, ...) -> ((a, b, ...), b...)
-
+// composeV :: ((x,y, ...), (x,y, ...)) -> (a, b, ...) -> ((a, b, ...), b...)
 module.exports = function composeV() {
   var fns = [].slice.call(arguments)
   return fns.reduce(function(a,b) {
