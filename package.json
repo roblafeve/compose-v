@@ -1,0 +1,26 @@
+{
+  "name": "variadic-compose",
+  "version": "1.0.0",
+  "description": "Variadic function composition",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roblafeve/variadic-compose.git"
+  },
+  "keywords": [
+    "compose",
+    "functional",
+    "variadic",
+    "multi-arity",
+    "javascript"
+  ],
+  "author": "Rob LaFeve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roblafeve/variadic-compose/issues"
+  },
+  "homepage": "https://github.com/roblafeve/variadic-compose#readme"
+}
