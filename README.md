@@ -41,4 +41,4 @@ xy(4, 6, 8) // 24 OR 4 + 6 + 6 + 8
 
 ## License
 
-MIT © [Sindre Sorhus](https://sindresorhus.com)
+MIT © [Rob LaFeve](https://twitter.com/roblafeve)
