@@ -1,14 +1,14 @@
 {
-  "name": "variadic-compose",
+  "name": "compose-v",
   "version": "1.0.0",
   "description": "Variadic function composition",
   "main": "index.js",
   "scripts": {
-    "test": "npm run mocha"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/roblafeve/variadic-compose.git"
+    "url": "git+https://github.com/roblafeve/compose-v.git"
   },
   "keywords": [
     "compose",
@@ -20,7 +20,12 @@
   "author": "Rob LaFeve",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/roblafeve/variadic-compose/issues"
+    "url": "https://github.com/roblafeve/compose-v/issues"
   },
-  "homepage": "https://github.com/roblafeve/variadic-compose#readme"
+  "homepage": "https://github.com/roblafeve/compose-v#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "nyc": "^6.4.4"
+  }
 }
