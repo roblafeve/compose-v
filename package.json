@@ -6,7 +6,7 @@
   "scripts": {
     "test": "nyc mocha",
     "test:watch": "mocha -w",
-    "report-coverage": "nyc report --reporter=lcov > coverage.lcov && codecov"
+    "test:report-coverage": "nyc report --reporter=lcov > coverage.lcov && codecov"
   },
   "repository": {
     "type": "git",

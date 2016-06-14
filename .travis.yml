@@ -5,3 +5,4 @@ install:
   - npm install --only-dev
 script:
   - npm test
+  - npm run test:report-coverage
